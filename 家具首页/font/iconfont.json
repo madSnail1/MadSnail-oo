@@ -1,0 +1,23 @@
+{
+  "id": "1885757",
+  "name": "hehe",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2742621",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "6756285",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

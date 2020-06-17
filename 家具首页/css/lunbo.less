@@ -1,0 +1,82 @@
+.loopbox {
+    width: 100%;
+    height: 600px;
+    background: #030;
+    position: relative;
+    overflow: hidden;
+}
+
+.box {
+    width: 400%;
+    height: 100%;
+    background: #999;
+    transition: all .7s;
+}
+
+.box-item {
+    width:100%;
+    height: 100%;
+    background: #f1f1f1;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px;
+    float: left;
+   /* display: none;*/
+    overflow: hidden;
+}
+.box-item.box-show {
+    display: block;
+}
+
+.arrow {
+    width: 60px;
+    line-height: 30px;
+    background: #f00;
+    text-align: center;
+    color: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+
+.arrow:hover {
+    background: #f60;
+}
+
+.arrow.arrow-right {
+    left: auto;
+    right: 10px;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    z-index: 100;
+}
+
+.page li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #f1e7d6;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.box-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page li:hover {
+    background: #660000;
+}
+
+.page li.current {
+    background: #660000;
+}
